@@ -1,0 +1,16 @@
+#grid {
+  position: relative;
+  height: 600px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.block {
+  position: absolute;
+  background-color: #ccc;
+  height: 30px;
+  width: 30px;
+  /* box-sizing: border-box; */
+  /* Cambiar el color del borde a rojo para distinguirlo */
+  border: 1px solid black;
+}
